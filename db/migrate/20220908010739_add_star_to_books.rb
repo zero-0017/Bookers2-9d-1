@@ -1,4 +1,4 @@
-class AddStarToTweets < ActiveRecord::Migration[6.1]
+class AddStarToBooks < ActiveRecord::Migration[6.1]
   def change
     add_column :books, :star, :float
   end
